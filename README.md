@@ -60,7 +60,7 @@ The variance of the suspension coil's PSI across all manufacturing lots is calcu
 
 ### Lot Summary
 
-![Lot Summary](lot_summary_screenshot.png)
+![Lot Summary](https://github.com/jrennr/MechaCar_Statistical_Analysis/blob/main/Lot_Summary.png)
 
 The lot summary provides mean, median, variance, and standard deviation values for each manufacturing lot.
 

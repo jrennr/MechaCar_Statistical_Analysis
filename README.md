@@ -54,7 +54,7 @@ The MechaCar suspension coils were tested across multiple manufacturing lots to 
 
 ### Total Summary
 
-![Total Summary](total_summary_screenshot.png)
+![Total Summary](https://github.com/jrennr/MechaCar_Statistical_Analysis/blob/main/Total_Summary.png)
 
 The variance of the suspension coil's PSI across all manufacturing lots is calculated to be 62.29356 pounds per square inch. This value is well below the design specification limit of 100 pounds per square inch. Therefore, the current manufacturing data for all manufacturing lots in total meets the design specification.
 

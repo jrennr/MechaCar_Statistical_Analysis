@@ -1,0 +1,345 @@
+
+
+> library(dplyr)
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+> 
+> # Load the dplyr package
+> library(dplyr)
+> library(dplyr)
+> 
+
+Restarting R session...
+
+> install.packages("dplyr")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/jrgar/AppData/Local/R/win-library/4.3’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/dplyr_1.1.2.zip'
+Content type 'application/zip' length 1551806 bytes (1.5 MB)
+downloaded 1.5 MB
+
+package ‘dplyr’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\jrgar\AppData\Local\Temp\RtmpGkHaKj\downloaded_packages
+> library(dplyr)
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+> 
+> search()
+ [1] ".GlobalEnv"        "package:dplyr"    
+ [3] "tools:rstudio"     "package:stats"    
+ [5] "package:graphics"  "package:grDevices"
+ [7] "package:utils"     "package:datasets" 
+ [9] "package:methods"   "Autoloads"        
+[11] "package:base"     
+> # Import and read MechaCar_mpg.csv file
+> mecha_car_data <- read.csv("MechaCar_mpg.csv")
+Error in file(file, "rt") : cannot open the connection
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'MechaCar_mpg.csv': No such file or directory
+> # Import and read MechaCar_mpg.csv file
+> mecha_car_data <- read.csv("C:\Users\Columbia bootcamp\MenchaCar\MechaCar_mpg.csv")
+Error: '\U' used without hex digits in character string (<input>:1:32)
+> mecha_car_data <- read.csv("rC:\Users\Columbia bootcamp\MenchaCar\MechaCar_mpg.csv")
+Error: '\U' used without hex digits in character string (<input>:1:33)
+> mecha_car_data <- read.csv("rC:\Users\Columbia bootcamp\MenchaCar\MechaCar_mpg.csv")
+Error: '\U' used without hex digits in character string (<input>:1:33)
+> mecha_car_data <- read.csv("C:\\Users\\Columbia bootcamp\\MenchaCar\\MechaCar_mpg.csv")
+> # Perform linear regression
+> lm_model <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + drivetrain + ground_clearance, data = mecha_car_data)
+Error in eval(predvars, data, env) : object 'drivetrain' not found
+> View(mecha_car_data)
+> View(mecha_car_data)
+> mecha_car_data <- read.csv("C:\\Users\\Columbia bootcamp\\MenchaCar\\suspension_coil.csv")
+> View(mecha_car_data)
+> View(mecha_car_data)
+> View(mecha_car_data)
+> lm_model <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + drivetrain + ground_clearance, data = mecha_car_data)
+Error in eval(predvars, data, env) : object 'mpg' not found
+> mecha_car_data <- read.csv("C:/Users/Columbia bootcamp/MenchaCar/MechaCar_mpg.csv")
+> # Import and read MechaCar_mpg.csv file
+> mecha_car_data <- read.csv("C:/Users/Columbia bootcamp/MenchaCar/MechaCar_mpg.csv")
+> 
+> # Perform linear regression using all six variables
+> lm_model <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + drivetrain + ground_clearance, data = mecha_car_data)
+Error in eval(predvars, data, env) : object 'drivetrain' not found
+> mecha_car_data <- read.csv("C:\\Users\\Columbia bootcamp\\MenchaCar\\MechaCar_mpg.csv")
+> # Import and read MechaCar_mpg.csv file
+> mecha_car_data <- read.csv("C:/Users/Columbia bootcamp/MenchaCar/MechaCar_mpg.csv")
+> 
+> # Perform linear regression using all six variables
+> lm_model <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + drivetrain + ground_clearance, data = mecha_car_data)
+Error in eval(predvars, data, env) : object 'drivetrain' not found
+> # Perform linear regression using all six variables
+> lm_model <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance, data = mecha_car_data)
+> 
+> # Use the summary() function to obtain the p-value and R-squared value
+> summary(lm_model)
+
+Call:
+lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + 
+    ground_clearance, data = mecha_car_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-21.3395  -4.1155  -0.2094   6.8789  17.2672 
+
+Coefficients:
+                   Estimate Std. Error t value
+(Intercept)      -1.076e+02  1.576e+01  -6.823
+vehicle_length    6.240e+00  6.609e-01   9.441
+vehicle_weight    1.277e-03  6.948e-04   1.837
+spoiler_angle     8.031e-02  6.656e-02   1.207
+ground_clearance  3.659e+00  5.394e-01   6.784
+                 Pr(>|t|)    
+(Intercept)      1.87e-08 ***
+vehicle_length   3.05e-12 ***
+vehicle_weight     0.0728 .  
+spoiler_angle      0.2339    
+ground_clearance 2.13e-08 ***
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 8.853 on 45 degrees of freedom
+Multiple R-squared:  0.7032,	Adjusted R-squared:  0.6768 
+F-statistic: 26.65 on 4 and 45 DF,  p-value: 2.277e-11
+
+> 
+> # Perform linear regression using all six variables
+> lm_model <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance, data = mecha_car_data)
+> 
+> # Use the summary() function to obtain the p-value and R-squared value
+> summary(lm_model)
+
+Call:
+lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + 
+    ground_clearance, data = mecha_car_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-21.3395  -4.1155  -0.2094   6.8789  17.2672 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)      -1.076e+02  1.576e+01  -6.823 1.87e-08 ***
+vehicle_length    6.240e+00  6.609e-01   9.441 3.05e-12 ***
+vehicle_weight    1.277e-03  6.948e-04   1.837   0.0728 .  
+spoiler_angle     8.031e-02  6.656e-02   1.207   0.2339    
+ground_clearance  3.659e+00  5.394e-01   6.784 2.13e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 8.853 on 45 degrees of freedom
+Multiple R-squared:  0.7032,	Adjusted R-squared:  0.6768 
+F-statistic: 26.65 on 4 and 45 DF,  p-value: 2.277e-11
+
+> 
+> # Get the summary of the linear regression model
+> lm_summary <- summary(lm_model)
+> 
+> # Print the summary to view the results
+> print(lm_summary)
+
+Call:
+lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + 
+    ground_clearance, data = mecha_car_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-21.3395  -4.1155  -0.2094   6.8789  17.2672 
+
+Coefficients:
+                   Estimate Std. Error t value
+(Intercept)      -1.076e+02  1.576e+01  -6.823
+vehicle_length    6.240e+00  6.609e-01   9.441
+vehicle_weight    1.277e-03  6.948e-04   1.837
+spoiler_angle     8.031e-02  6.656e-02   1.207
+ground_clearance  3.659e+00  5.394e-01   6.784
+                 Pr(>|t|)    
+(Intercept)      1.87e-08 ***
+vehicle_length   3.05e-12 ***
+vehicle_weight     0.0728 .  
+spoiler_angle      0.2339    
+ground_clearance 2.13e-08 ***
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 8.853 on 45 degrees of freedom
+Multiple R-squared:  0.7032,	Adjusted R-squared:  0.6768 
+F-statistic: 26.65 on 4 and 45 DF,  p-value: 2.277e-11
+
+> 
+> # Import and read the Suspension_Coil.csv file
+> suspension_coil_data <- read.csv("C:\Users\Columbia bootcamp\MenchaCar\Suspension_Coil.csv")
+Error: '\U' used without hex digits in character string (<input>:1:38)
+> 
+> # Calculate summary statistics for the suspension coil's PSI across all manufacturing lots
+> total_summary <- suspension_coil_data %>%
++     summarize(
++         Mean_PSI = mean(PSI),
++         Median_PSI = median(PSI),
++         Variance_PSI = var(PSI),
++         StdDev_PSI = sd(PSI)
++     )
+Error: object 'suspension_coil_data' not found
+> # Import and read the Suspension_Coil.csv file
+> suspension_coil_data <- read.csv("C:/Users/Columbia bootcamp/MenchaCar/Suspension_Coil.csv")
+> 
+> # Calculate summary statistics for the suspension coil's PSI across all manufacturing lots
+> > total_summary <- suspension_coil_data %>%
+Error: unexpected '>' in ">"
+> # Calculate summary statistics for the suspension coil's PSI across all manufacturing lots
+> total_summary <- suspension_coil_data %>%
++     +     summarize(
++         +         Mean_PSI = mean(PSI),
+Error: unexpected '=' in:
+"    +     summarize(
+        +         Mean_PSI ="
+> # Calculate summary statistics for the suspension coil's PSI across all manufacturing lots
+> > total_summary <- suspension_coil_data %>%
+Error: unexpected '>' in ">"
+> # Calculate summary statistics for the suspension coil's PSI across all manufacturing lots
+> total_summary <- suspension_coil_data %>%
++     summarize(
++         Mean_PSI = mean(PSI),
++         Median_PSI = median(PSI),
++         Variance_PSI = var(PSI),
++         SD_PSI = sd(PSI)
++     )
+> 
+> # Display the lot_summary dataframe
+> lot_summary
+Error: object 'lot_summary' not found
+> > # Display the lot_summary dataframe
+Error: unexpected '>' in ">"
+> # Create a lot_summary dataframe using group_by() and summarize() functions
+> lot_summary <- suspension_coil_data %>%
++     group_by(Manufacturing_Lot) %>%
++     summarize(
++         Mean_PSI = mean(PSI),
++         Median_PSI = median(PSI),
++         Variance_PSI = var(PSI),
++         SD_PSI = sd(PSI)
++     )
+> 
+> lot_summary
+# A tibble: 3 × 5
+  Manufacturing_Lot Mean_PSI Median_PSI
+  <chr>                <dbl>      <dbl>
+1 Lot1                 1500       1500 
+2 Lot2                 1500.      1500 
+3 Lot3                 1496.      1498.
+# ℹ 2 more variables: Variance_PSI <dbl>,
+#   SD_PSI <dbl>
+> total_summary
+  Mean_PSI Median_PSI Variance_PSI   SD_PSI
+1  1498.78       1500     62.29356 7.892627
+> save.image("C:/Users/Columbia bootcamp/MenchaCar/mencha_car_workspace.RData")
+> View(total_summary)
+> View(suspension_coil_data)
+> View(mecha_car_data)
+> View(lm_summary)
+> View(lot_summary)
+> View(lm_model)
+> save.image("C:/Users/Columbia bootcamp/MenchaCar/mencha_car_workspace.RData")
+> View(lm_model)
+> View(lm_summary)
+> View(lot_summary)
+> View(mecha_car_data)
+> View(suspension_coil_data)
+> View(suspension_coil_data)
+> # T-test for all manufacturing lots
+> ttest_all_lots <- t.test(suspension_coil_data$PSI, mu = 1500)
+> 
+> # Print the t-test result
+> print(ttest_all_lots)
+
+	One Sample t-test
+
+data:  suspension_coil_data$PSI
+t = -1.8931, df = 149, p-value = 0.06028
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1497.507 1500.053
+sample estimates:
+mean of x 
+  1498.78 
+
+> 
+> # T-test for Lot1
+> ttest_lot1 <- t.test(subset(suspension_coil_data, Manufacturing_Lot == "Lot1")$PSI, mu = 1500)
+> 
+> # Print the t-test result for Lot1
+> print(ttest_lot1)
+
+	One Sample t-test
+
+data:  subset(suspension_coil_data, Manufacturing_Lot == "Lot1")$PSI
+t = 0, df = 49, p-value = 1
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1499.719 1500.281
+sample estimates:
+mean of x 
+     1500 
+
+> 
+> # T-test for Lot2
+> ttest_lot2 <- t.test(subset(suspension_coil_data, Manufacturing_Lot == "Lot2")$PSI, mu = 1500)
+> 
+> # Print the t-test result for Lot2
+> print(ttest_lot2)
+
+	One Sample t-test
+
+data:  subset(suspension_coil_data, Manufacturing_Lot == "Lot2")$PSI
+t = 0.51745, df = 49, p-value = 0.6072
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1499.423 1500.977
+sample estimates:
+mean of x 
+   1500.2 
+
+> 
+> # T-test for Lot3
+> ttest_lot3 <- t.test(subset(suspension_coil_data, Manufacturing_Lot == "Lot3")$PSI, mu = 1500)
+> 
+> # Print the t-test result for Lot3
+> print(ttest_lot3)
+
+	One Sample t-test
+
+data:  subset(suspension_coil_data, Manufacturing_Lot == "Lot3")$PSI
+t = -2.0916, df = 49, p-value = 0.04168
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1492.431 1499.849
+sample estimates:
+mean of x 
+  1496.14 

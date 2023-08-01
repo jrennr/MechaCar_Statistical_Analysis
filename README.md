@@ -44,4 +44,27 @@ Additionally, two variables, vehicle_weight and spoiler_angle, have p-values gre
 
 Therefore, the linear model may be somewhat effective in predicting mpg, but there is room for improvement by either identifying more relevant predictors or considering other factors that influence mpg in the MechaCar prototypes.
 
+## Summary Statistics on Suspension Coils
+
+# MechaCar Project
+
+## Summary Statistics on Suspension Coils
+
+The MechaCar suspension coils were tested across multiple manufacturing lots to ensure consistency in the manufacturing process. The summary statistics for the suspension coil's PSI are:
+
+### Total Summary
+
+![Total Summary](total_summary_screenshot.png)
+
+The variance of the suspension coil's PSI across all manufacturing lots is calculated to be 62.29356 pounds per square inch. This value is well below the design specification limit of 100 pounds per square inch. Therefore, the current manufacturing data for all manufacturing lots in total meets the design specification.
+
+### Lot Summary
+
+![Lot Summary](lot_summary_screenshot.png)
+
+The lot summary provides mean, median, variance, and standard deviation values for each manufacturing lot.
+
+The current manufacturing data for each individual lot meets the design specification of not exceeding 100 pounds per square inch.
+
+In conclusion, the MechaCar suspension coils meet the design specifications as the variance of the suspension coil's PSI is within the allowable limit for all manufacturing lots in total and each lot individually. The data indicates consistent manufacturing quality across different lots.
 

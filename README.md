@@ -1,4 +1,6 @@
-"## Linear Regression to Predict MPG"
+# MechaCar Project
+
+## Linear Regression to Predict MPG
 
 Call:
 lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + 
@@ -44,9 +46,7 @@ Additionally, two variables, vehicle_weight and spoiler_angle, have p-values gre
 
 Therefore, the linear model may be somewhat effective in predicting mpg, but there is room for improvement by either identifying more relevant predictors or considering other factors that influence mpg in the MechaCar prototypes.
 
-## Summary Statistics on Suspension Coils
 
-# MechaCar Project
 
 ## Summary Statistics on Suspension Coils
 

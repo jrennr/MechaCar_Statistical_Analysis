@@ -90,10 +90,10 @@ Based on the t-tests conducted on the suspension coils' PSI data, we found the f
   For Lot 3, the p-value is less than 0.05, indicating a significant difference between the mean PSI and the population mean.
 
 Screenshots:
-![Total Summary T-Test]( "C:\Users\Columbia bootcamp\MenchaCar\test_all_lots.png")
+![Total Summary T-Test]( "https://github.com/jrennr/MechaCar_Statistical_Analysis/blob/main/test_all_lots.png")
 
-![Lot 1 T-Test]( "C:\Users\Columbia bootcamp\MenchaCar\test_lot1.png")
+![Lot 1 T-Test]( "https://github.com/jrennr/MechaCar_Statistical_Analysis/blob/main/test_lot1.png")
 
-![Lot 2 T-Test]( "C:\Users\Columbia bootcamp\MenchaCar\test_lot2.png")
+![Lot 2 T-Test]( "https://github.com/jrennr/MechaCar_Statistical_Analysis/blob/main/test_lot2.png")
 
-![Lot 3 T-Test]( "C:\Users\Columbia bootcamp\MenchaCar\test_lot3")
+![Lot 3 T-Test]( "https://github.com/jrennr/MechaCar_Statistical_Analysis/blob/main/test_lot3.png")

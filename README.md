@@ -68,3 +68,32 @@ The current manufacturing data for each individual lot meets the design specific
 
 In conclusion, the MechaCar suspension coils meet the design specifications as the variance of the suspension coil's PSI is within the allowable limit for all manufacturing lots in total and each lot individually. The data indicates consistent manufacturing quality across different lots.
 
+
+
+
+
+## T-Tests on Suspension Coils
+
+Summary:
+Based on the t-tests conducted on the suspension coils' PSI data, we found the following results:
+
+- The t-test for all manufacturing lots combined:
+  - The p-value was 0.1539, which is greater than the significance level of 0.05.
+  - We do not have sufficient evidence to reject the null hypothesis.
+  - There is no significant difference between the mean PSI of all manufacturing lots and the population mean of 1,500 psi.
+
+- T-tests for individual manufacturing lots:
+  - Lot 1: p-value = 0.5245 (No significant difference)
+  - Lot 2: p-value = 0.6389 (No significant difference)
+  - Lot 3: p-value = 0.0417 (Significant difference)
+  
+  For Lot 3, the p-value is less than 0.05, indicating a significant difference between the mean PSI and the population mean.
+
+Screenshots:
+![Total Summary T-Test]( "C:\Users\Columbia bootcamp\MenchaCar\test_all_lots.png")
+
+![Lot 1 T-Test]( "C:\Users\Columbia bootcamp\MenchaCar\test_lot1.png")
+
+![Lot 2 T-Test]( "C:\Users\Columbia bootcamp\MenchaCar\test_lot2.png")
+
+![Lot 3 T-Test]( "C:\Users\Columbia bootcamp\MenchaCar\test_lot3")

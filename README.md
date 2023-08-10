@@ -9,8 +9,7 @@ Residuals:
      Min       1Q   Median       3Q      Max 
 -21.3395  -4.1155  -0.2094   6.8789  17.2672 
 
-## Coefficients:
-                   Estimate Std. Error t value
+## Coefficients:   Estimate Std. Error t value
 (Intercept)      -1.076e+02  1.576e+01  -6.823
 vehicle_length    6.240e+00  6.609e-01   9.441
 vehicle_weight    1.277e-03  6.948e-04   1.837

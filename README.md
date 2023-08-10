@@ -19,11 +19,16 @@ spoiler_angle     8.031e-02  6.656e-02   1.207
 ground_clearance  3.659e+00  5.394e-01   6.784
                  Pr(>|t|)    
                  
-(Intercept)      1.87e-08 ***
+                 (Intercept)      1.87e-08 ***
+
 vehicle_length   3.05e-12 ***
+
 vehicle_weight     0.0728 .  
-spoiler_angle      0.2339    
+
+spoiler_angle      0.2339   
+
 ground_clearance 2.13e-08 ***
+
 ---
 Signif. codes:  
 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

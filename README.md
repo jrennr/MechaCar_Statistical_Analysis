@@ -17,6 +17,8 @@ vehicle_length    6.240e+00  6.609e-01   9.441
 vehicle_weight    1.277e-03  6.948e-04   1.837
 spoiler_angle     8.031e-02  6.656e-02   1.207
 ground_clearance  3.659e+00  5.394e-01   6.784
+
+
                  Pr(>|t|)    
  (Intercept)      1.87e-08 ***
 vehicle_length   3.05e-12 ***

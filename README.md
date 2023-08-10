@@ -5,7 +5,6 @@
 Call:
 lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + 
     ground_clearance, data = mecha_car_data)
-
 Residuals:
      Min       1Q   Median       3Q      Max 
 -21.3395  -4.1155  -0.2094   6.8789  17.2672 

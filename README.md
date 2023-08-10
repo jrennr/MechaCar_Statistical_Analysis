@@ -12,7 +12,7 @@ Residuals:
 
 ## Coefficients:   
  
-                  Estimate   Std. Error t value
+ ###             Estimate   Std. Error t value
                   
 (Intercept)      -1.076e+02  1.576e+01  -6.823
 

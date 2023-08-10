@@ -36,15 +36,15 @@ F-statistic: 26.65 on 4 and 45 DF,  p-value: 2.277e-11
  Variables with p-values less than 0.05 provided a non-random amount of variance to the model. The variables vehicle_length and ground_clearance have p-values much smaller than 0.05. This indicates that they provided a non-random amount of variance to the mpg values.
 
 
-The slope of the linear model is not considered to be zero.
-The coefficients for vehicle_length and ground_clearance are statistically significant because they have p-values that are much smaller than 0.05. The significance of these coefficients means that they are contributing to predicting the mpg values effectively and they are not equal to zero.
+The slope of the linear model is not zero.
+The coefficients for the vehicle_length and ground_clearance are statistically significant because they have p-values that are smaller than 0.05. The significance of these coefficients is that they are contributing to predicting the mpg values effectively. They are not zero.
 
 
 This model can account for 70.32% of the variability in mpg using the predictor variables vehicle_length, vehicle_weight, spoiler_angle, and ground_clearance. Also, there could be other factors that weren't included in the model that contribute to the mpg values and are not accounted for.
 
-Additionally, two variables, vehicle_weight and spoiler_angle, have p-values greater than 0.05, indicating they might not be statistically significant predictors. This suggests that they may not even contribute much to the predictive power of the model.
+Additionally, two variables, the ehicle_weight and the spoiler_angle, have p-values greater than 0.05. They might not be statistically significant predictors. This suggests that they may not even contribute much to the predictive power of the model.
 
-Therefore, the linear model may be somewhat effective in predicting mpg, but there is room for improvement by either identifying more relevant predictors or considering other factors that influence mpg in the MechaCar prototypes.
+The linear model may be effective in predicting mpg, but there is room for improvement either by identifying more relevant predictors or using other factors that influence mpg in the MechaCar prototypes.
 
 
 

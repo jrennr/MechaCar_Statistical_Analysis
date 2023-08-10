@@ -9,22 +9,6 @@ Residuals:
      Min       1Q   Median       3Q      Max 
 -21.3395  -4.1155  -0.2094   6.8789  17.2672 
 
-Coefficients:
-                   Estimate Std. Error t value
-(Intercept)      -1.076e+02  1.576e+01  -6.823
-vehicle_length    6.240e+00  6.609e-01   9.441
-vehicle_weight    1.277e-03  6.948e-04   1.837
-spoiler_angle     8.031e-02  6.656e-02   1.207
-ground_clearance  3.659e+00  5.394e-01   6.784   
- (Intercept)      1.87e-08 ***
-vehicle_length   3.05e-12 ***
-
-vehicle_weight     0.0728 .  
-
-spoiler_angle      0.2339   
-
-ground_clearance 2.13e-08 ***
-
 ---
 Signif. codes:  
 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

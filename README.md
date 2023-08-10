@@ -8,7 +8,7 @@ lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle +
 Residuals:
      Min       1Q   Median       3Q      Max 
 -21.3395  -4.1155  -0.2094   6.8789  17.2672 
--------------
+
 ## Coefficients:   
                   Estimate Std. Error t value
 (Intercept)      -1.076e+02  1.576e+01  -6.823
@@ -20,8 +20,7 @@ ground_clearance  3.659e+00  5.394e-01   6.784
 vehicle_length   3.05e-12 ***
 vehicle_weight     0.0728 
 spoiler_angle      0.2339   
-ground_clearance 2.13e-08 ***
--------------------------
+ground_clearance 2.13e-08 **
 Signif. codes:  
 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 

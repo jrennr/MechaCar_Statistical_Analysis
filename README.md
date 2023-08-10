@@ -37,7 +37,9 @@ Signif. codes:
 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Residual standard error: 8.853 on 45 degrees of freedom
-Multiple R-squared:  0.7032,	Adjusted R-squared:  0.6768 
+
+Multiple R-squared:  0.7032,	Adjusted R-squared:  0.6768
+
 F-statistic: 26.65 on 4 and 45 DF,  p-value: 2.277e-11
 
 ### Interpretation:

@@ -7,4 +7,5 @@ Statistical analysis in R exploring vehicle MPG and suspension coil PSI. The sav
 ![All lots t-test](test_all_lots.png)
 ![Lot 3 t-test](test_lot3.png)
 
-[Console transcript](MechaCarChallenge.RScript) · [MPG data](MechaCar_mpg%5B1%5D.csv)
+[R script](MechaCarChallenge.RScript) · [MPG data](MechaCar_mpg%5B1%5D.csv)
+

@@ -9,3 +9,9 @@ Statistical analysis in R exploring vehicle MPG and suspension coil PSI. The sav
 
 [R script](MechaCarChallenge.RScript) · [MPG data](MechaCar_mpg%5B1%5D.csv)
 
+## Project history
+
+- **Repository created:** July 2023
+- **Focus at the time:** R and statistical analysis
+- **Portfolio context:** This repository is intentionally preserved as part of my public development history. It shows earlier work and skill progression rather than being rewritten to resemble a current production project.
+- **Current portfolio:** [jenniferreevey.dev](https://jenniferreevey.dev/)
